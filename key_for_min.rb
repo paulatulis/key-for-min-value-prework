@@ -13,3 +13,4 @@ name_hash.each do |name, age|
 end
 end
 return empty_key 
+end
