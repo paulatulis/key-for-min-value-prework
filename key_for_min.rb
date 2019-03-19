@@ -8,4 +8,5 @@ name_hash.collect do |name, age|
   name <=> age
   key = name 
 end
+return key 
 end 
