@@ -10,10 +10,6 @@ name_hash.each do |name, age|
   if empty_value == nil || age < empty_value
   empty_key = name 
   empty_value = age 
-
-end
-return key 
-if name_hash.empty?
-  return nil
 end
 end
+return empty_key 
