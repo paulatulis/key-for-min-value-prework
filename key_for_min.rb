@@ -10,5 +10,6 @@ name_hash.collect do |name, age|
 end
 return key 
 if name_hash.empty?
-end 
+  return nil
+end
 end
