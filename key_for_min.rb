@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   empty_key = nil 
   empty_value = nil 
   
-name_hash.collect do |name, age|
+name_hash.each do |name, age|
   name <=> age
   key = name 
 end
